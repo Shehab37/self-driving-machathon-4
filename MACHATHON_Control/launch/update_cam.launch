@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <rosparam command="load" file="$(find machathon_control)/config/network_config.yaml" />
+    <node name= "update_cam" pkg= "machathon_control" type="update_cam.py" output= "screen"/>
+</launch>

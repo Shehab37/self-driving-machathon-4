@@ -1,0 +1,21 @@
+ESP:
+  IP : "192.168.212.189"
+  port : 8001
+  steering_topic: "/steering"
+  throttle_topic: "/throttle"
+  speed_topic: "/speed"
+  bluetooth_name: "walle"
+
+camera:
+  bluetooth_name: "Camera_Car_6"
+  image_topic: "/camera_image"
+  IP: "192.168.212.124"
+  port: 8000
+  brightness: 0  # int: [-2, 2]
+  contrast: 0  # int: [-2, 2]
+  saturation: 0  # int: [-2, 2]
+  white_balance: 1  # 0=disable, 1=enabled
+  auto_white_balance: 1  # 0=disable, 1=enabled
+  white_balance_mode: 0  # 0=Auto, 1=Sunny, 2=Cloudy, 3=Office, 4=Home
+  jpeg_quality: 40  # int: [1, 63], 1=best quality, 63=lowest quality
+  frame_size: 1  # 0=(320x240), 1=(352x288), 2=(640x480)

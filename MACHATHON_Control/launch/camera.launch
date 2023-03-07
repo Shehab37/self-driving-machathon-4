@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <rosparam command="load" file="$(find machathon_control)/config/network_config.yaml" />
+    <node name= "camera_wifi" pkg= "machathon_control" type="cam_socket.py" output= "screen"/>
+</launch>
