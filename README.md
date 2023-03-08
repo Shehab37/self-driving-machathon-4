@@ -3,5 +3,7 @@ this is the code used for the (STP machathon 4.0 competition for self-driving ca
 
 
 ## machathon control has the ROS enviroment for the car (used for the final phase)
-## machathon judge has the simulation enviroment and test/debug pipeline code (used during the filtration phase)
+## machathon judge has :
+    simulation enviroment in solution.ipynb (used during the filtration phase)
+    test/debug pipeline code in test_pipeline.py
 
