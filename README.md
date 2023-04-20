@@ -8,3 +8,6 @@ this is the code used for the (STP machathon 4.0 competition for self-driving ca
     simulation enviroment in solution.ipynb (used during the filtration phase)
     test/debug pipeline code in test_pipeline.py
 
+
+# link to demo video : 
+https://www.linkedin.com/posts/shehab-ashraf-b71108118_machathon4abr0-autonomousdriving-stp23-activity-7039262409919803393-HdhX?utm_source=share&utm_medium=member_desktop
